@@ -7,21 +7,15 @@ int ft_iterative_factorial(int nb)
     int i = nb;
 
    fact	= 1;
-
-   if( nb <=0)
+ if( nb <=0)
    fact = 1;
-
-   else {
+else {
 	   a =1;
-
-	   while(a <= nb)
-	   {
-		   fact = fact * a;
-			   putchar(a++);
+ while(a <= nb)  {
+  fact = fact * a;
+ putchar(a++);
 	   }
-   
-  } 
-   return fact;
+  }   return fact;
 }
 /*
 int main()
